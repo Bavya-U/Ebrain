@@ -1,0 +1,30 @@
+.borrower-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.borrower-form-container {
+    max-width: 700px;
+    background: #fff;
+}
+.borrower-form-container h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:#203864;
+}
+
+.borrower-form-container button {
+    width: 100px;
+}
+.borrower-submitBtn{
+    background-color:#203864 ;
+}
+.borrower-submitBtn:hover{
+    background-color:#2d4c84 ;
+}
+.borrower-table{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:#203864;
+}
