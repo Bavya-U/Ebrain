@@ -22,7 +22,9 @@ body {
     font-size: 25px;
     
 }
-
+h1{
+    color:#203864;
+}
 .card-body p {
     font-size: 15px;
 }
