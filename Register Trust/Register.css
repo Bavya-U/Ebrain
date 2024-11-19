@@ -74,14 +74,15 @@ legend {
     background-color: green;
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 0px 10px;
+    font-size: 25px;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    align-items: center;
     transition: background-color 0.3s, transform 0.2s;
     /* margin-top: 20px; */
-    margin-left: 530px;
+    margin-left: 610px;
 }
 
 .addrow:hover {
@@ -142,4 +143,15 @@ table tr:nth-child(even) {
     .form-row > .form-group {
         flex: 1 1 100%;
     }
+}
+.Register-btn{
+    background-color: #1d3557 !important;
+    color: #ffffff !important;
+}
+.Register-reset{
+    background-color: #333 !important;
+    color: #ffffff !important;
+}
+.register-sub{
+    margin-left: 509px;
 }
