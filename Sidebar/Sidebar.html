@@ -9,12 +9,12 @@
   <link rel="stylesheet" href="Sidebar.css">
 </head>
 <body>
-  <div class="d-flex">
+  <div class="d-flex shadow-lg">
   
-    <nav class="sidebar shadow">
-        <div class="sidebar-brand p-1 text-center d-flex">
-            <i class='bx bxs-spa ms-3 mt-1'></i>
-            <h3 class="ms-3">Menus</h3>
+    <nav class="sidebar shadow-lg">
+        <div class="sidebar-brand p-1 text-center d-flex shadow">
+          <img src="/Asserts/logo.png" alt="Logo" class="img-logo">
+           
           </div>    
       <ul class="nav flex-column p-2">
         <li class="nav-item">
@@ -22,34 +22,40 @@
           <a href="#" class="nav-link "><i class='bx bxl-mastercard me-2'></i>Master</a>
    
           <ul class="dropdown ps-5">
-            <li><a href="/LoanType/loan.html"><i class='bx bx-chevrons-right'></i> Loan Types/Facility</a></li>
-            <li><a href="/collateral/collateral.html"><i class='bx bx-chevrons-right'></i> Collateral</a></li>
-            <li><a href="/borrower/borrower.html"><i class='bx bx-chevrons-right'></i> Borrower</a></li>
+            <li><a href="/LoanType/loan.html" target="mainFrame"><i class='bx bx-chevrons-right'></i> Loan Types/Facility</a></li>
+            <li><a href="/collateral/collateral.html" target="mainFrame"><i class='bx bx-chevrons-right'></i> Collateral</a></li>
+            <li><a href="/borrower/borrower.html" target="mainFrame"><i class='bx bx-chevrons-right'></i> Borrower</a></li>
            
           </ul>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link "><i class='bx bx-credit-card-front me-2'></i>Finance</a>
           <ul class="dropdown  ps-5">
-            <li><a href="/Lending/Lending.html"><i class='bx bx-chevrons-right'></i> Lending</a></li>
-            <li><a href="/Repayment/Repayment.html"><i class='bx bx-chevrons-right'></i> Repayment</a></li>
+            <li><a href="/Lending/Lending.html" target="mainFrame"><i class='bx bx-chevrons-right'></i> Lending</a></li>
+            <li><a href="/Repayment/Repayment.html" target="mainFrame"><i class='bx bx-chevrons-right'></i> Repayment</a></li>
             
           </ul>
         </li>
         <li class="nav-item">
-          <a href="/UserPage/user.html" class="nav-link "><i class='bx bxs-user-account me-2'></i>Users</a>
+          <a href="/UserPage/userpage.html" target="mainFrame" class="nav-link "><i class='bx bxs-user-account me-2'></i>Users</a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link "><i class='bx bxs-report me-2'></i>Reports</a>
           <ul class="dropdown ps-5">
-            <li><a href="/loansReport/lonesReport.html"><i class='bx bx-chevrons-right'></i> Loan Report</a></li>
+            <li><a href="/loansReport/lonesReport.html" target="mainFrame"><i class='bx bx-chevrons-right'></i> Loan Report</a></li>
           </ul>
+        </li>
+        <li class="nav-item">
+          <a href="/Register Trust/Repayment.html" target="mainFrame" class="nav-link "><i class='bx bxl-paypal'></i>Repayment</a>
+        </li>
+        <li class="nav-item">
+          <a href="/confirmtrust/verify.html" target="mainFrame" class="nav-link "><i class='bx bxs-badge-check'></i>Confirom & verify</a>
         </li>
       </ul>
     </nav>
 
-    <div class="main-content p-4">
-      <h2>Main content</h2>
+    <div class="main-content">
+      <iframe name="mainFrame" src="/LoanType/loan.html"></iframe>
      
     </div>
   </div>
