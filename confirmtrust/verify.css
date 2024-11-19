@@ -19,7 +19,7 @@ body {
     text-align: center;
     color: #203864;
     margin-bottom: 20px;
-    font-size: 25px;
+    /* font-size: px; */
     
 }
 h1{
@@ -47,6 +47,7 @@ h1{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 20px;
+    border: solid 2px rgb(209, 208, 208);
 }
 
 .table {
@@ -137,4 +138,13 @@ h2 {
 
 .input-group input:focus {
     border-color: #007bff;
+}
+
+
+.trust-confirm{
+    margin-top: -35px;
+    font-size: 20px;
+    color: #203864;
+    background-color: #ffffff;
+    /* font-size: ; */
 }
