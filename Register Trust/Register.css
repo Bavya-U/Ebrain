@@ -148,10 +148,7 @@ table tr:nth-child(even) {
     background-color: #1d3557 !important;
     color: #ffffff !important;
 }
-.Register-reset{
-    background-color: #333 !important;
-    color: #ffffff !important;
-}
+
 .register-sub{
     margin-left: 509px;
 }
