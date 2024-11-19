@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Trust</title>
+    <link rel="stylesheet" href="Register.css">
+   </head>
+<body>
+    <h2>Register Trust</h2>
+    <!-- First Card -->
+    <div class="card">
+        <fieldset>
+            <legend>Trust Details</legend>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="trustName">Name</label>
+                    <input type="text" id="trustName" name="trustName" required>
+                </div>
+                <div class="form-group">
+                    <label for="trustShortName">Short Name</label>
+                    <input type="text" id="trustShortName" name="trustShortName" required>
+                </div>
+            </div>
+            <label class="add">Address</label>
+            <div class="rows">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="addressLine1" name="addressLine1" placeholder="Address Line 1" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="addressLine2" name="addressLine2" placeholder="Address Line 2" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="city" name="city" placeholder="City" required>
+                </div>
+                <div class="form-group">
+                    <select id="state" name="state" required>
+                        <option value="">State</option>
+                        <option value="state1">State 1</option>
+                        <option value="state2">State 2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <select id="country" name="country" required>
+                        <option value="">Country</option>
+                        <option value="country1">Country 1</option>
+                        <option value="country2">Country 2</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="postalCode" name="postalCode" placeholder="Postal Code" required>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+    <!-- Second Card -->
+    <div class="card">
+        <fieldset>
+            <legend>Requester Details</legend>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="requesterName">Name</label>
+                    <input type="text" id="requesterName" name="requesterName" required>
+                </div>
+                <div class="form-group">
+                    <label for="requesterPhone">Phone No</label>
+                    <input type="text" id="requesterPhone" name="requesterPhone" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="requesterEmail">Email</label>
+                    <input type="email" id="requesterEmail" name="requesterEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="requesterRole">Role of Requester</label>
+                    <input type="text" id="requesterRole" name="requesterRole" required>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <!-- Third Card (Table) -->
+    <div class="card">
+        <fieldset>
+            <legend>Trustee Details</legend>
+            <button class="addrow">+ Add row</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Name</th>
+                        <th>Mobile</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </div>
+</body>
+</html>
