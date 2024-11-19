@@ -1,0 +1,11 @@
+.loans-report h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:#203864;
+}
+.btn-color{
+background-color:#203864;
+}
+.btn-color:hover{
+    background-color:#2d4c84;
+}

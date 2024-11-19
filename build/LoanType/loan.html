@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Form</title>
+    <link rel="stylesheet" href="loan.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5 d-flex justify-content-center align-items-center">
+        <div class="loancontent  shadow p-4 rounded" style="width: 100%; max-width: 600px;">
+            <div class="card-body">
+                <h2 class="loanhead text-center mb-4">Loan Type Facility</h2>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="shortNameCode" class="form-label">ShortName/Code</label>
+                            <input type="text" class="form-control" id="shortNameCode" placeholder="Enter short name and code">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="interestRate" class="form-label">Interest Rate/Slab (%)</label>
+                            <input type="text" class="form-control" id="interestRate" placeholder="Enter interest rate or slab">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="status" class="form-label">Status</label>
+                            <select class="form-control" id="status">
+                                <option value="active">Active</option>
+                                <option value="inactive">Inactive</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-12">
+                            <label for="remarks" class="form-label">Remarks</label>
+                            <textarea class="form-control" id="remarks" rows="3" placeholder="Enter remarks"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mt-2 ">
+                        <div class="col-12 loanbtn">
+                            <button type="submit" class="loansubbtn  me-2">Save</button>
+                            <button type="reset" class="btn btn-secondary">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="table-responsive">
+            <div class="newtype"><button class="typenew mb-3">NewTypes</button></div>
+            <table class="table table-bordered table-striped text-center ">
+                <thead class="">
+                    <tr>
+                        <th scope="col">S.No</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Short Name</th>
+                        <th scope="col">InterestRate%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>1 Paisa Loan</td>
+                        <td>1 Rs </td>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2 paisa Loan</td>
+                        <td>2 Rs</td>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>4 Paisa Loan</td>
+                        <td>4 Rs</td>
+                        <td>40%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

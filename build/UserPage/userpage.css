@@ -1,0 +1,30 @@
+.users-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.users-form-container {
+    max-width: 700px;
+    background: #fff;
+}
+.users-form-container h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:#203864;
+}
+
+.users-form-container button {
+    width: 100px;
+}
+.users-submitBtn{
+    background-color:#203864 ;
+}
+.users-submitBtn:hover{
+    background-color:#2d4c84 ;
+}
+.users-table{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:#203864;
+}
