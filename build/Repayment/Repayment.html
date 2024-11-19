@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repayment</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Repayment.css">
+   
+</head>
+<body>
+    <div class="container">
+        <!-- Heading -->
+        <h1 class="heading">Repayment</h1>
+        
+        <div class="row">
+            <!-- Form 1: Loan Details -->
+            <div class="col-md-6">
+                <div class="form-container">
+                    <h3 class="text-center mb-4">Loan Details</h3>
+                    <form>
+                        <div class="mb-4">
+                            <div class="form-group col-md-6">
+                                <label for="loanNo">Loan No</label>
+                                <span style="margin-left:111px;">:</span>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="loanDate">Loan Date</label>
+                                <span style="margin-left:100px;">:</span>
+                              
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="loanAmount">Loan Amount</label>
+                                <span style="margin-left:77px;">:</span>
+                           
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="principleDue">Principle Due</label>
+                                <span style="margin-left:80px;">:</span>
+                             
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="monthsPaid">No of Month Paid</label>
+                                <span style="margin-left:47px;">:</span>
+                            
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="loanType">Loan Type/Facility</label>
+                                <span style="margin-left:48px;">:</span>
+                            
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="tenor">Tenor</label>
+                                <span style="margin-left:135px;">:</span>
+                        
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="borrowerName">Borrower Name</label>
+                                <span style="margin-left:64px;">:</span>
+                            
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="borrowerMobile">Borrower Mobile:</label>
+                                <span style="margin-left:53px;">:</span>
+                            
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Form 2: Payment -->
+            <div class="col-md-6">
+                <div class="form-container">
+                    <h3 class="text-center mb-4">Payment</h3>
+                    <form>
+                        <div class="">
+                            <div class=" col-md-12">
+                                <div class="row mb-4">
+                                <div class="col-md-6">
+                                <label for="paymentDate">Payment Date</label>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Read Only" readonly>
+                            </div>
+                        </div>
+                       </div>
+                            </div>
+
+                            <div class=" col-md-12">
+                                <div class="row mb-4">
+                                    <div class="col-md-6">
+                                <label for="interestDue">Interest Due</label>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="number" class="form-control"  placeholder="Read Only" readonly>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row mb-4">
+                                    <div class="col-md-6">
+                                <label for="interestPaying">Interest Paying Amount</label>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="number" class="form-control">
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row mb-4">
+                                    <div class="col-md-6">  
+                                <label for="principlePaying">Principle Paying Amount</label>
+                                </div>
+                                <div class="col-md-6">  
+                                <input type="number" class="form-control" >
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row mb-4">
+                                    <div class="col-md-6">     
+                                <label for="totalPaying">Total Paying Amount</label>
+                                </div>
+                                <div class="col-md-6"> 
+                                <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row mb-4">
+                                    <div class="col-md-6"> 
+                                <label for="remark">Remark</label>
+                                </div>
+                                <div class="col-md-6"> 
+                                <textarea type="text" class="form-control"></textarea>
+                                </div>
+                            </div>
+                            </div> 
+                            <div class="button-group justify-content-end d-flex mt-3">
+                                <button type="submit" class="btn btnbtn m-1">Pay Now</button>
+                                <button type="reset" class="btn btn-secondary m-1 ">Cancel</button>
+                            </div> 
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Lending.css">
+    <title>Lending</title>
+</head>
+<body>
+
+    <div class="card Lending w-75 d-flex flex-coloumn align-item-center justify-content-center border-0">
+
+        <h1 class="d-flex justify-content-center align-item-center mt-5">Lending</h1>
+    
+<!-- Borrower Details     -->
+    <div class="container mt-5 d-flex align-item-center justify-content-center">
+        
+        <div class="Lending-card card shadow border-2 p-5 rounded-2 w-75">
+            <h2 class="borrower-h2 text-center mb-4 position-absolute  mb-5">Borrower Details</h2>
+            
+            <div class="mx-2">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="borrower" class="form-label">Borrower :</label>
+                    <input type="text" id="borrower" class="form-control" placeholder="Auto Complete">
+                </div>
+                
+                <div class="col-md-6">
+                    <label for="borrower-code" class="form-label">Borrower Short Name/Code :</label>
+                    <input type="text" id="borrower-code" class="form-control" value="keerthi (reed only)" disabled>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="mobile" class="form-label">Mobile No :</label>
+                    <input type="text" id="mobile" class="form-control" value="1234567890 (reed only)" disabled>
+                </div>
+                
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email :</label>
+                    <input type="text" id="email" class="form-control" value="abc@gmail.com (reed only)" disabled>
+                </div>
+            </div>
+
+            <div>
+                <label for="email" class="form-label">Address :</label>
+                <textarea type="text" id="email" class="form-control" disabled>9/10 Thanjavur (reed only)</textarea>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- loan/facility -->
+    <div class="container mt-5 d-flex align-item-center justify-content-center">
+        
+        <div class="Lending-card card shadow border-2 p-5 rounded-2 w-75">
+            <h2 class="borrower-h2 text-center mb-4 position-absolute mb-5">Loan/Facility </h2>
+            
+            <div class="mx-2">
+            
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="loan-type" class="form-label">Loan Type/Facility :</label>
+                    <select name="type" id="loan-type" class="form-select">
+                        <option value="" disabled selected>Select a Loan Type</option>
+                        <option value="personal">Personal Loan</option>
+                        <option value="auto">Auto Loan</option>
+                        <option value="home">Home Loan</option>
+                        <option value="education">Education Loan</option>
+                        <option value="business">Business Loan</option>
+                    </select>
+                </div>
+                
+                <div class="col-md-6">
+                    <label for="borrower-code" class="form-label">Interest Rate % :</label>
+                    <input type="text" id="borrower-code" class="form-control" value="2 paisa (reed only)" disabled>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="mobile" class="form-label">Loan Amount :</label>
+                    <input type="text" id="mobile" class="form-control" placeholder="Enter Your Loan Amount">
+                </div>
+                
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Tenor :</label>
+                    <input type="text" id="email" class="form-control" placeholder="Enter loan duration (e.g., 12 months)">
+                </div>
+            </div>
+
+            <div>
+                <label for="interest-due" class="form-label">Interest on Due Interest :</label>
+                <div class="d-flex mt-3">
+                    <div class="form-check me-3">
+                        <input class="form-check-input" type="radio" name="interest" id="interest-yes" value="yes">
+                        <label class="form-check-label" for="interest-yes">
+                            Yes
+                        </label>
+                    </div>
+                    
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="interest" id="interest-no" value="no">
+                        <label class="form-check-label" for="interest-no">
+                            No
+                        </label>
+                    </div>
+                </div>
+            </div>          
+
+            </div>
+        </div>
+    </div>
+
+<!-- guranter -->
+    <div class="container mt-5 d-flex align-item-center justify-content-center">
+        
+        <div class="Lending-card card shadow border-2 p-5 rounded-2 w-75">
+            <h2 class="borrower-h2 text-center mb-4 position-absolute mb-5">Guranter</h2>
+            
+            <div class="mx-2">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="borrower" class="form-label">Name :</label>
+                    <input type="text" id="borrower" class="form-control" placeholder="Enter Your Name">
+                </div>
+                
+                <div class="col-md-6">
+                    <label for="borrower-code" class="form-label">Mobile :</label>
+                    <input type="text" id="borrower-code" class="form-control" placeholder="Enter Your Mobile No">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="mobile" class="form-label">Remark</label>
+                    <input type="text" id="mobile" class="form-control" placeholder="Enter Remark">
+                </div>
+                
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Address</label>
+                    <input type="text" id="email" class="form-control" placeholder="Enter Your Valid Address">
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- collateral -->
+    <div class="container mt-5 d-flex align-item-center justify-content-center">
+        
+        <div class="Lending-card card shadow border-2 p-5 rounded-2 w-75">
+            <h2 class="borrower-h2 text-center mb-4 position-absolute mb-5">Collateral</h2>
+            
+            <div class="d-flex justify-content-end align-item-end mb-3">
+                <button class="btn btn-small bg-success text-light">Add</button>
+            </div>
+            
+            <div class="mx-2">
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="borrower" class="form-label fw-bold">Type </label>
+                </div>
+                
+                <div class="col-md-4">
+                    <label for="borrower-code" class="form-label fw-bold">Remarks </label>
+                </div>
+                
+                <div class="col-md-4">
+                    <label for="borrower-code" class="form-label fw-bold">Supporting DOC </label>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <select name="type" id="loan-type" class="form-select">
+                        <option value="" disabled selected>Types</option>
+                        <option value="personal">Type-1</option>
+                        <option value="auto">Type-2</option>
+                        <option value="home">Type-3</option>
+                    </select>
+                </div>
+                
+                <div class="col-md-4">
+                    <input type="text" id="" class="form-control" placeholder="Remarks">
+                </div>
+                
+                <div class="col-md-4">
+                    <input type="file" id="fileUpload">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <select name="type" id="loan-type" class="form-select">
+                        <option value="" disabled selected>Types</option>
+                        <option value="personal">Type-1</option>
+                        <option value="auto">Type-2</option>
+                        <option value="home">Type-3</option>
+                    </select>
+                </div>
+                
+                <div class="col-md-4">
+                    <input type="text" id="" class="form-control" placeholder="Remarks">
+                </div>
+               
+                <div class="col-md-4">
+                    <input type="file" id="fileUpload">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <select name="type" id="loan-type" class="form-select">
+                        <option value="" disabled selected>Types</option>
+                        <option value="personal">Type-1</option>
+                        <option value="auto">Type-2</option>
+                        <option value="home">Type-3</option>
+                    </select>
+                </div>
+                
+                <div class="col-md-4">
+                    <input type="text" id="" class="form-control" placeholder="Remarks">
+                </div>
+                
+                <div class="col-md-4">
+                    <input type="file" id="fileUpload">
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="Lending-btns d-flex align-item-end justify-content-end p-5 pe-5 me-5">
+        <button class="Lending-reset btn bg-secondary text-light">Reset</button>
+        <button class="Lending-btn btn text-light mx-3">Submit</button>
+    </div>
+
+</div>
+
+
+</body>
+</html>
